@@ -1,4 +1,12 @@
 # Friendly-OAuth2-Server
+## Cross platform Oauth2 and OpenId authorization server
+> [!IMPORTANT]
+> This is test version. Don't use it in production. 
+> In production use prod version.
+
+> [!NOTE]
+> The admin panel and login form support English and Russian languages.
+
 ### Starting the authorization server
 1. Download java jre 17 version
 2. Download Friendly-OAuth2-Server jar file and license.lic file
@@ -33,4 +41,18 @@
 > [!WARNING]
 > Don't use user authorization mode "OAuth2 client credential flow" and client authorization mode "None".
 
-<!-- ![Login form](/assets/admin-setup-server.png) -->
+![Login form](/assets/admin-setup-server.png)
+
+### Other functionality
+
+Also, the server has the following functionality:
+- sending the code by email for verification
+- user registration via form
+- dynamic registration according to the OAuth2 standard
+- deleting a user account
+- user password collection
+- creating new users through the admin panel
+- blocking users
+- access rights management via the admin panel
+- tracking open sessions
+- and much more
