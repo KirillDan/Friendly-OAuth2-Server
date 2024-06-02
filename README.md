@@ -56,3 +56,5 @@ Also, the server has the following functionality:
 - access rights management via the admin panel
 - tracking open sessions
 - and much more
+
+![Pages](/assets/pages.png)
